@@ -10,7 +10,7 @@ await m.reply('*「 WAIT 」 SEDANG PROSES...*')
     if (/webp/.test(mime)) {
         out = await webp2png(media)
     }
-    await conn.sendFile(m.chat, out, 'out.png', '*Nihh Kakk >_<*', m, false)
+    await conn.sendFile(m.chat, out, 'out.png', '*Nihh Kakk >_< jangan lupa follow ig ownerku kak https://www.instagram.com/anggatzi123/*', m, false)
 }
 handler.help = ['toimg (reply)']
 handler.tags = ['maker']
