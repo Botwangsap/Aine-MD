@@ -14,8 +14,7 @@ handler.before = async function (m) {
  //   await conn.modifyChat(m.chat, 'mute', -Math.floor(new Date / 1e3) * 1e3 - 1e3).catch(console.log)
     await this.sendButton(m.chat, `
 Hai ${ucapan()} *${username.replace(/@.+/, '')}* 👋
-
-${banned ? `kamu *terbanned* kak 😕\nHubungi: wa.me/${owner[0]}` : 'Ada yang bisa saya bantu?'}
+${banned ? `kamu *terbanned* kak 😕\nHubungi: wa.me/${owner[0]}` : 'Ada yang bisa saya bantu? https://chat.whatsapp.com/Ly28IB8Fel4JbPS0qCUy2p'}
 `.trim(), wm, null, [['Menu', '/menu']], m)
     user.pc = new Date * 1
 }
