@@ -44,7 +44,8 @@ Hai, %ucapan %name! 👋
 *Hari:* %week
 *Tanggal:* %date
 *Uptime:* %uptime (%muptime)
-
+* group official lisabotz : https://chat.whatsapp.com/Ly28IB8Fel4JbPS0qCUy2p
+                  https://chat.whatsapp.com/CtdLAWGU2Kk8KP768f8wI8
 *Limit:* %limit
 *Level:* %level
 *XP:* %exp
@@ -53,7 +54,7 @@ Hai, %ucapan %name! 👋
   body: ' • %cmd %islimit %isPremium',
   footer: '\n',
   after: `*Made by ♡*
-*%npmname* | %version
+*Lisabotz-MD* | %version
 ${'```%npmdesc```'}
 `,
 }
@@ -157,7 +158,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://aiinne.github.io/', 'Website', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'Lisabotz-MD🍭❤ | AnggaKzරධ', null, 'https://www.instagram.com/anggatzi123/', 'My instagram', '', '', [
       ['Donate', '/donasi'],
       ['Sewa Bot', '/sewa'],
       ['Owner', '/owner']
@@ -174,8 +175,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedFooterText:'Ⓟ premium | Ⓛ limit',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Website',
-                                    url: 'https://Ainebot.github.io/'
+                                    displayText: 'My instagram',
+                                    url: 'https://www.instagram.com/anggatzi123/'
                                 }
                             }, {
                                 quickReplyButton: {
