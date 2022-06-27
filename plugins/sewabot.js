@@ -13,17 +13,14 @@ let handler = async (m, { conn }) => {
   description: ` *• SEWA BOT & UP TO PREMIUM •*
         
 1. Grup / 30 Hari
-Rp. 15.000 Dana
-Rp. 15.000 Pulsa
-
+Rp. 15.000 pulsa axis
+Rp. 15.000 Pulsa axis
 2. Premium / 30 Hari
-Rp. 10.000 Dana
+Rp. 10.000 pulsa axis
 Rp. 10.000 Pulsa
-
 3. Premium + Grup / 30 Hari
-Rp. 20.000 Dana
-Rp. 20.000 Pulsa
-
+Rp. 20.000 pulsa axis
+Rp. 20.000 Pulsa axis
 wa.me/${owner[0]}
 *Bukan Bot!!!*
 *Owner ${conn.user.name}*
@@ -36,9 +33,9 @@ wa.me/${owner[0]}
   products:[{productId:'7487741964584083'}]}],
   headerImage: { productId: '7487741964584083',
   jpegThumbnail: baper },
-  businessOwnerJid: `6289654360447@s.whatsapp.net`
+  businessOwnerJid: `6281998425782@s.whatsapp.net`
   },
-  footerText: 'https://aiinne.github.io',
+  footerText: 'https://chat.whatsapp.com/Ly28IB8Fel4JbPS0qCUy2p',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
   const data = global.owner.filter(([id, isCreator]) => id && isCreator)
