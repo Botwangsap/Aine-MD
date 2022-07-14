@@ -56,7 +56,8 @@ handler.help = ['add'].map(v => v + ' @user')
 handler.tags = ['group']
 handler.command = /^(add)$/i
 
-handler.admin = true
+handler.admin = false
+handler.premium = true
 handler.group = true
 handler.botAdmin = true
 handler.fail = null
@@ -83,7 +84,8 @@ handler.help = ['add 628xx']
 handler.tags = ['group']
 handler.command = /^(add)$/i
 
-handler.admin = true
+handler.admin = false
+handler.premium = true
 handler.group = true
 handler.botAdmin = true
 
