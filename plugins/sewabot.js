@@ -16,11 +16,11 @@ let handler = async (m, { conn }) => {
 Rp. 15.000 pulsa axis
 Rp. 15.000 Pulsa axis
 2. Premium / 30 Hari
-Rp. 10.000 pulsa axis
-Rp. 10.000 Pulsa
+Rp. 15.000 pulsa axis
+Rp. 15.000 Pulsa
 3. Premium + Grup / 30 Hari
-Rp. 20.000 pulsa axis
-Rp. 20.000 Pulsa axis
+Rp. 25.000 pulsa axis
+Rp. 25.000 Pulsa axis
 wa.me/${owner[0]}
 *Bukan Bot!!!*
 *Owner ${conn.user.name}*
@@ -30,10 +30,10 @@ wa.me/${owner[0]}
   productListInfo: {
   productSections: [{
   title:'Klik untuk order',
-  products:[{productId:'7487741964584083'}]}],
-  headerImage: { productId: '7487741964584083',
+  products:[{productId:'5443576519036948'}]}],
+  headerImage: { productId: '5443576519036948',
   jpegThumbnail: baper },
-  businessOwnerJid: `6281998425782@s.whatsapp.net`
+  businessOwnerJid: `77075223531@s.whatsapp.net`
   },
   footerText: 'https://chat.whatsapp.com/Ly28IB8Fel4JbPS0qCUy2p',
   }},{})
