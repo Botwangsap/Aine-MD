@@ -31,7 +31,7 @@ wa.me/${owner[0]}
   productSections: [{
   title:'Klik untuk order',
   products:[{productId:'5522349281155709'}]}],
-  headerImage: { productId: '5443576519036948',
+  headerImage: { productId: '5522349281155709',
   jpegThumbnail: baper },
   businessOwnerJid: `6281998425782@s.whatsapp.net`
   },
