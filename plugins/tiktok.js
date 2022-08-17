@@ -21,7 +21,7 @@ _jangan lupa follow ig ownerku kak : https://www.instagram.com/anggatzi123/_
 `.trim(), m)
 }
 handler.help = ['tiktok', 'tiktok', 'tiktokdl'].map(v => v + ' <url>')
-handler.tags = ['downloader']
+handler.tags = ['tiktok']
 handler.command = /^(tik(tok)?(tok)?(dl)?)$/i
 
 export default handler
